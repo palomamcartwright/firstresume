@@ -1,0 +1,163 @@
+body{
+  margin: 0;
+}
+h1{
+  font-size: 32px;
+}
+h2{
+  margin-top: 0;
+  font-size: 26px;
+}
+h3{
+  font-size: 30px;
+  font-weight: bolder;
+}
+h4{
+  font-size: 26px;
+  font-weight: bold
+}
+h5{
+  font-size: 22px;
+  font-weight: normal;
+}
+h6{
+  font-size: 18px;
+  font-weight: lighter;
+}
+p{
+  font-size: 17px;
+}
+.container{
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 900px;
+}
+header{
+  background-color: #52175D;
+  color: #858AE3;
+}
+header nav a{
+  text-transform: uppercase;
+  color: #E2ADF2;
+  text-decoration: none;
+}
+body{
+  font-family: 'Indie Flower', serif;
+  font-size: 17px;
+  font-weight: normal;
+  background: linear-gradient(45deg, #0FA3B1, #BDFFFD)
+}
+::selection{
+  background: #F23D3D;
+}
+.basic-info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+button{
+  background-color: #858AE3;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 22px;
+}
+button:hover{
+  background-color: #52175D;
+}
+.first-block h2{
+  font-size: 38px;
+  font-weight: bold;
+}
+.first-block h4{
+  font-size: 22px;
+  font-weight: normal;
+}
+.social-media a{
+  font-size: 16px;
+  font-weight: lighter;
+  color: #E2ADF2;
+  text-decoration: none;
+}
+#contact{
+  background-color: #52175D;
+  color: #E2ADF2;
+}
+.footer-container{
+  margin: 0 auto;
+  padding: 40px 0;
+  width: 900px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  vertical-align: middle;
+}
+a{
+  color: #E2ADF2;
+  text-decoration: none;
+}
+a:hover{
+  color: black;
+  transition-property: color;
+  transition-delay: 0.3s;
+  transition-duration: 1s;
+  transition-timing-function: ease-in;
+}
+.menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.menu-link{
+  margin-left: 10px;
+}
+#about, #skills, #experience{
+  color: #52175D;
+}
+
+.abt::first-letter{
+  font-weight: bold;
+}
+.about-gen{
+  padding: 15px;
+}
+.exps{
+  display: inline-flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: nowrap;
+  padding: 15px;
+}
+.exp1{
+  text-align: right;
+  padding: 15px;
+  width: 250px;
+}
+.exp2{
+  width: 630px;
+  padding: 15px;ß
+}
+
+.skill{
+  display: flex;
+  width: 850px;
+  padding: 15px;
+  border: 50px;
+  align-items: center;
+  justify-content: space-between;
+}
+.skill h4, span{
+  font-size: 18px;
+}
+meter{
+  flex-grow: 1;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+meter::-webkit-meter-bar {
+  border-radius: 5px;
+  background: #d7a2e7;
+}
+meter::-webkit-meter-optimum-value {
+  background: #858AE3;
+}
